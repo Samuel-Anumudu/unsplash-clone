@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from "vue";
+import { computed } from "vue";
 import { usePhotoStore } from "../stores/photoStore";
 import PhotoCard from "./PhotoCard.vue";
 import Skeleton from "./Skeleton.vue";
