@@ -3,7 +3,7 @@
     <header
       class="flex flex-col items-center justify-center bg-[#dce3ea] h-[250px]"
     >
-      <div class="w-full max-w-[950px]">
+      <div class="w-full max-w-[980px] px-3">
         <template v-if="!photoStore.searchQuery">
           <SearchBar @search="onSearch" />
         </template>
